@@ -1,0 +1,5 @@
+// import "./i18n"
+// export * from "./i18n"
+// export * from "./translate"
+// export { default as en } from "./resources/en.json"
+// export { default as vi } from "./resources/vi.json"

@@ -1,3 +1,51 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    // "allowJs": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["app/*"],
+      "assets": ["assets/*", "assets/index.ts"],
+      "theme": ["app/theme/*", "app/theme/index.ts"],
+      // "config": ["src/config/*", "src/config/index.ts"],
+      // "controller": ["src/controller/*", "src/controller/index.ts"],
+      "i18n": ["app/i18n/*", "app/i18n/index.ts"],
+      "models": ["app/models/*", "app/models/index.ts"],
+      "stacks": ["app/stacks/*", "app/stacks/index.ts"],
+      "helper": ["app/helper/*", "app/helper/index.ts"],
+      "services": ["app/services/*"],
+      "screens": ["app/screens/*", "app/screens/index.ts"],
+      "utils": ["app/utils/*", "app/utils/index.ts"],
+      "interface": ["app/interface/*"],
+      "hooks": ["app/hooks/*"],
+      "components": ["app/components"],
+      "firebase": ["app/firebase/*", "app/firebase/index.ts"]
+    }
+  },
+  "extensions": [".js", ".jsx", ".ts", ".tsx"],
+  "exclude": ["node_modules"],
+  "include": [
+    "index.js",
+    "app",
+    "test",
+    "index.ts",
+    "type.d.ts",
+    "scripts/locale",
+    "**/*.config.js"
+  ]
 }

@@ -46,6 +46,7 @@
     "index.ts",
     "type.d.ts",
     "scripts/locale",
-    "**/*.config.js"
+    "**/*.config.js",
+    "jest.config.js"
   ]
 }

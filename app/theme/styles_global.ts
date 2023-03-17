@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
-import {color} from './color';
+import {colors} from './color';
 
 export const stylesGlobal = StyleSheet.create({
   btnPrimary: {
     alignItems: 'center',
-    backgroundColor: color.primary,
+    backgroundColor: colors.background,
     borderRadius: 8,
     justifyContent: 'center',
     paddingHorizontal: 8,

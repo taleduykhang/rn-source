@@ -2,8 +2,9 @@ import {NavigatorParamList} from 'stacks';
 import React, {FC, useState} from 'react';
 import {StackScreenProps} from '@react-navigation/stack';
 import {observer} from 'mobx-react-lite';
-import {View, Text, TextInput, TouchableOpacity, Alert} from 'react-native';
+import {View, TextInput, TouchableOpacity, Alert} from 'react-native';
 import {styles} from './styles';
+import {Text} from 'components';
 
 export const HomeScreen: FC<StackScreenProps<NavigatorParamList, 'home'>> =
   observer(() => {
@@ -30,7 +31,7 @@ export const HomeScreen: FC<StackScreenProps<NavigatorParamList, 'home'>> =
           }}
         />
         <TouchableOpacity testID="buttonTest" onPress={onPress}>
-          <Text testID="txtTest">Submit</Text>
+          <Text testID="txtTest" tx="global.hi" />
         </TouchableOpacity>
       </View>
     );

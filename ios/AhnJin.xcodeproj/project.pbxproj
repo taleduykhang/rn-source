@@ -13,10 +13,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		493224CE7991D9BB5CDEED32 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E674D10140EDC2A600C7946 /* ExpoModulesProvider.swift */; };
 		699C82F406D05399D9017219 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70EC7448313D7D69FE5FACC /* ExpoModulesProvider.swift */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B6702C274173CD2BD23626B4 /* libPods-AhnJin-AhnJinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1475AFA1C16D4CF11291EB /* libPods-AhnJin-AhnJinTests.a */; };
 		DAF70CC212785391AD51908F /* libPods-AhnJin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52166C1E3C920CB6E94C79D3 /* libPods-AhnJin.a */; };
-		E7923CC629C80B1100B5C3A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7923CC529C80B1100B5C3A1 /* LaunchScreen.xib */; };
+		E7923CC829C80BE000B5C3A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7923CC729C80BE000B5C3A1 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,12 +43,11 @@
 		52166C1E3C920CB6E94C79D3 /* libPods-AhnJin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AhnJin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D56B1479D362D9CF695D3F8 /* Pods-AhnJin-AhnJinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhnJin-AhnJinTests.debug.xcconfig"; path = "Target Support Files/Pods-AhnJin-AhnJinTests/Pods-AhnJin-AhnJinTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E674D10140EDC2A600C7946 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-AhnJin-AhnJinTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AhnJin/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1475AFA1C16D4CF11291EB /* libPods-AhnJin-AhnJinTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AhnJin-AhnJinTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70EC7448313D7D69FE5FACC /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-AhnJin/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		C8A95F6BEFEFEEA95E490F62 /* Pods-AhnJin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AhnJin.debug.xcconfig"; path = "Target Support Files/Pods-AhnJin/Pods-AhnJin.debug.xcconfig"; sourceTree = "<group>"; };
 		E74FF1FD29B9E72F007C07AC /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
-		E7923CC529C80B1100B5C3A1 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E7923CC729C80BE000B5C3A1 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -105,9 +103,8 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				E7923CC529C80B1100B5C3A1 /* LaunchScreen.xib */,
+				E7923CC729C80BE000B5C3A1 /* LaunchScreen.xib */,
 			);
 			name = AhnJin;
 			sourceTree = "<group>";
@@ -277,8 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				E7923CC629C80B1100B5C3A1 /* LaunchScreen.xib in Resources */,
+				E7923CC829C80BE000B5C3A1 /* LaunchScreen.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
